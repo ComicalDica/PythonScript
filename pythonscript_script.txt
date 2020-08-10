@@ -1,0 +1,14 @@
+print THIS IS A TEST PRINT
+print  
+if 40*7 == 7*40:open (callable_script.ps) | read
+print  
+print THIS IS THE CODE FOR SECOND_PY_SCRIPT.PS
+print  
+open (callable_script.ps) | read
+
+# You can't put a space after a colon in an if statement atm
+# And indentation for functions are very string
+# so open cant have spaces before it or have ' |  read' instead of ' | read'
+# Just a heads up
+# Also this does return traceback errors for native python problems
+# So it isn't something wrong with the programming languages code if you get a traceback
